@@ -9,7 +9,7 @@ use cairo_lang_filesystem::ids::{CrateId, CrateLongId, Directory};
 use cairo_lang_semantic::db::PluginSuiteInput;
 use cairo_lang_semantic::inline_macros::get_default_plugin_suite;
 use cairo_lang_utils::Intern;
-use cairo_lang_utils::smol_str::SmolStr;
+use smol_str::SmolStr;
 use std::collections::HashSet;
 use std::path::PathBuf;
 

@@ -4,19 +4,20 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-cairo-lang-utils = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-filesystem = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-semantic = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-test-plugin = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-starknet = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-executable = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-defs = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-syntax = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-compiler = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-parser = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-lowering = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
-cairo-lang-diagnostics = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-utils = "2.11.4"
+cairo-lang-filesystem = "2.11.4"
+cairo-lang-semantic = "2.11.4"
+cairo-lang-test-plugin = "2.11.4"
+cairo-lang-starknet = "2.11.4"
+cairo-lang-executable = "2.11.4"
+cairo-lang-defs = "2.11.4"
+cairo-lang-syntax = "2.11.4"
+cairo-lang-compiler = "2.11.4"
+cairo-lang-parser = "2.11.4"
+cairo-lang-lowering = "2.11.4"
+cairo-lang-diagnostics = "2.11.4"
 
+smol_str = "0.2"
 clap = { version = "4.5", features = ["derive"] }
 crossbeam-channel = "0.5"
 serde = { version = "1.0", features = ["derive"] }

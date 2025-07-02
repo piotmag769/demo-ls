@@ -6,12 +6,12 @@ use cairo_lang_filesystem::db::{
     CORELIB_CRATE_NAME, CrateSettings, DependencySettings, Edition, ExperimentalFeaturesConfig,
 };
 use cairo_lang_utils::OptionHelper;
-use cairo_lang_utils::smol_str::ToSmolStr;
 use itertools::Itertools;
 use scarb_metadata::{
     CompilationUnitCairoPluginMetadata, CompilationUnitComponentDependencyMetadata,
     CompilationUnitComponentId, Metadata, PackageMetadata,
 };
+use smol_str::ToSmolStr;
 use std::collections::HashMap;
 use std::fs;
 use std::path::Path;
@@ -397,7 +397,6 @@ fn scarb_package_experimental_features(package: &PackageMetadata) -> Experimenta
         negative_impls: contains("negative_impls"),
         associated_item_constraints: contains("associated_item_constraints"),
         coupons: contains("coupons"),
-        user_defined_inline_macros: contains("user_defined_inline_macros"),
     }
 }
 

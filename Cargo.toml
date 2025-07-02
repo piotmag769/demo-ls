@@ -4,3 +4,25 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+cairo-lang-utils = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-filesystem = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-semantic = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-test-plugin = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-starknet = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-executable = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-defs = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-syntax = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-compiler = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-parser = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-lowering = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+cairo-lang-diagnostics = { git = "https://github.com/starkware-libs/cairo", rev = "44eadf196a0323cd5f8fdebc309ad6a648c28523" }
+
+clap = { version = "4.5", features = ["derive"] }
+crossbeam-channel = "0.5"
+serde = { version = "1.0", features = ["derive"] }
+anyhow = "1.0"
+itertools = "0.14"
+serde_json = "1.0"
+scarb-metadata = "1.15"
+salsa = { package = "rust-analyzer-salsa", version = "0.17.0-pre.6" }
+jod-thread = "1.0"
